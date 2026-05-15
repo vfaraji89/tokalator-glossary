@@ -1,0 +1,15 @@
+{
+  "name": "tokalator-glossary",
+  "version": "0.0.1",
+  "description": "Auto-generates a codebase glossary (symbol index) after /init or on demand. Saves tokens by giving Claude a compressed map of your codebase.",
+  "author": {
+    "name": "Vahid Faraji",
+    "email": "vfaraji89@gmail.com"
+  },
+  "repository": "https://github.com/vfaraji89/tokalator",
+  "license": "MIT",
+  "keywords": ["glossary", "context", "symbols", "index", "tokalator"],
+  "skills": "./skills/",
+  "hooks": "./hooks/hooks.json",
+  "bin": "./bin/"
+}

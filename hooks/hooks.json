@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if echo \"$CLAUDE_TOOL_INPUT\" | grep -q 'CLAUDE.md'; then \"${CLAUDE_PLUGIN_ROOT}/bin/tokalator-generate\" \"${CLAUDE_PROJECT_DIR}\"; fi",
+            "statusMessage": "Tokalator: Generating glossary...",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@
     "name": "Vahid Faraji",
     "email": "vfaraji89@gmail.com"
   },
-  "repository": "https://github.com/vfaraji89/tokalator",
+  "repository": "https://github.com/vfaraji89/tokalator-glossary",
   "license": "MIT",
   "keywords": ["glossary", "context", "symbols", "index", "tokalator"],
   "skills": "./skills/",
